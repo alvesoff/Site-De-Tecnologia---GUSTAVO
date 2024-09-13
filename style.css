@@ -16,6 +16,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 
 body{
@@ -177,4 +178,67 @@ section.topo-do-site {
     color: var(--cor-texto-principal);
     margin-bottom: 3px;
     margin-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .Saiba {
+    background-color: var(--cor-destaque); /* Cor de fundo  */
+    color: white;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .Saiba:hover {
+    background-color: #0004ff; /* Cor de fundo mais escuro no hover */
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  /*footer*/ 
+
+  footer {
+    background-color: #04041a8f;
+    color: #fff;
+    padding: 3px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col {
+    flex: 1;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #007bff; /* Azul claro */
+  }
+  
+  .social-media {
+    list-style: none;
+    display: flex;
+  }
+  
+  .social-media li {
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
   }
